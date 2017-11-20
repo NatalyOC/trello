@@ -1,0 +1,245 @@
+body{
+    font-family: Arial;
+    font-weight: 400px;
+    line-height: 18px;
+    
+    background-color: #0079BF;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #026AA7;
+    overflow: hidden;
+    padding: 5px 8px;
+    /* height: 30px; */
+    position: relative;
+}
+img{
+    height: 30px;
+    width: 5pc;
+}
+span{
+    color: #fff;
+   
+}
+.header-logo {
+    bottom: 0;
+    display: block;
+    left: 50%;
+    margin-left: -40px;
+    top: 5px;
+    text-align: center;
+    transition: .1s ease;
+    z-index: 2;}
+
+.header-btn-icon {
+    font-size: 1pc;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-btn-text {
+    padding: 0 8px;
+}
+.header-btn{
+    transition: .1s ease;
+    background: rgba(255,255,255,.3);
+    border-radius: 3px;
+    color: #f3f3f3;
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin-right: 8px;
+    min-width: 30px;
+    padding: 0;
+    height: 30px;
+    position: relative;
+}
+.header-btn.header-boards {
+    padding-left: 26px;
+} 
+.header-search {
+    float: left;
+    margin: 0 8px 0 0;
+    position: relative;
+    z-index: 1;
+}
+input[type=text].search-input {
+    background-color: rgba(255,255,255,.3);
+    border-radius: 3px;
+    border: none;
+    color: rgba(255,255,255,.5);
+    float: left;
+    font-size: 13px;
+    height: 30px;
+    margin: 0;
+    min-height: 30px;
+    padding-right: 30px;
+    padding-left: 8px;
+    line-height: 19px;
+    transition: width 150ms;
+    width: 180px;
+    z-index: 1;
+}
+.search-icon {
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    right: 5%;
+    top: 5%;
+}
+.header-user {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.member-initials{
+  
+    color: #4d4d4d;
+    display: block;
+    font-size: 9pt;
+    font-weight: 700;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    width: 100%;
+}
+.member{
+background-color: #D6DADC;
+color: #4d4d4d;
+display: block;
+float: left;
+height: 30px;
+margin: 0 4px 4px 0;
+overflow: visible;
+position: relative;
+text-align: center;
+width: 30px;
+top: 15%;
+border-radius: 90px;
+z-index: 0;}
+.icon-lg {
+    height: 2pc;
+    font-size: 20px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    font-weight: 400px;
+}
+/* Estilo a la seccion principal */
+.container-main{
+    height: auto;
+    overflow: hidden;
+    padding: 8px 4px 8px 8px;
+    position: relative;
+    color:#D6DADC;
+}
+.container-main span{
+    margin: 0 5px;
+}
+.btn-main{
+    display: inline-block;
+    margin-left: 10px;
+}
+.show-main{
+    display: inline-block;
+    margin-left: 400px;
+    
+}
+.fa-star-o{
+    margin: 0 4px;
+}
+.fa-lock{
+    margin: 0 4px;
+}
+.container-main a {
+    /* position: absolute; */
+    /* right: 0; */
+    
+    display: inline-block;
+    margin-right:20px; 
+    color: #D6DADC;
+}
+
+/*Estilo para la seccion del contenido */
+#container{
+    
+    height: 100%;
+}
+/* .list-wrapper{
+    background: #026AA7;
+    display: inline-block;
+    padding: 7px ;
+    position: relative;
+    border: 1px solid #026AA7;
+    color: rgba(255,255,255,.7);
+    border-radius: 5px;
+    margin-top: 30px;
+} 
+.text-list-hidden{
+
+} */
+.list-container{
+    background: rgba(0,0,0,.12);
+    cursor: pointer;
+    color: #fff;
+    height: auto;
+    min-height: 30px;
+    padding: 4px;
+    border-radius: 3px;
+    width: 270px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.list-container:last-child {
+    margin-right: 10px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+   
+}
+.placeholder{
+    display: block;
+    font-size: 14px;
+    padding: 7px;
+    color: rgba(255,255,255,.7);
+}
+.list-name-input{
+        background: 0 0;
+        border-color: transparent;
+        box-shadow: none;
+        cursor: pointer;
+        display: none;
+        margin: 0;    
+}
+.list-add-controls {
+    height: 0;
+    margin: 0;
+    display: none;
+}
+input.mod-list-add-button {
+    float: left;
+    min-height: 30px;
+    height: 30px;
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/**/
+.hidden{
+    display:none;
+}
+.show{
+
+}
