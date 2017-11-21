@@ -30,7 +30,7 @@
             <a href="" class="member"><span class="member-initials">NC</span></a>
         </div>
     </header>
-    <section id="container">
+    <section id="bar-main">
       <div class="container-main" >
         <span>Tablero de Bienvenida</span>
         <div class="btn-main">
@@ -42,24 +42,23 @@
             <span>...</span>
             <a href="">Mostrar menú</a>
         </div>
-
-
-        
-      </div>   
-      <div class="list-container list-wrapper">
-        <form>
-            <span class="placeholder js-open-add-list" id="text-addList">Añadir una lista...</span>
-            <div id="add-list" class="form-list">
-                <input class="list-name-input" type="text" name="name" placeholder="Añadir una lista..." autocomplete="off" dir="auto" maxlength="512">
-                <div class="addList list-add-controls u-clearfix">
-                    <input class="primary mod-list-add-button js-save-edit" type="submit" value="Guardar">
-                    <a class="icon-lg icon-close dark-hover js-cancel-edit" href="#"></a>
-                </div>
-            </div>
-           
-        </form>
-
       </div>
+    </section>
+    <section id="list">
+        <div id="add-list" class="form-list">
+            <form>
+                <span class="textadd-list" id="text-addList">Añadir una lista...</span>
+                <input class="list-name-input" type="text" name="name" placeholder="Añadir una lista...">
+                <div class="list-add-controls">
+                    <input class="list-add-button" type="submit" value="Guardar">
+                    <a class="fa fa-times fa-2x list-add-close" href="#"></a>
+                </div>
+            </form>
+        </div>
+       
+        
+    </section>
+      <!-- </div> -->
         
 
     </section>

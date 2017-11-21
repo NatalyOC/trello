@@ -2,7 +2,7 @@ body{
     font-family: Arial;
     font-weight: 400px;
     line-height: 18px;
-    
+    box-sizing: border-box;
     background-color: #0079BF;
 }
 a{
@@ -104,7 +104,7 @@ input[type=text].search-input {
     height: 30px;
     left: 0;
     line-height: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
     text-align: center;
     right: 0;
@@ -132,7 +132,7 @@ z-index: 0;}
     text-align: center;
     font-weight: 400px;
 }
-/* Estilo a la seccion principal */
+/* Estilo a la seccion barra principal */
 .container-main{
     height: auto;
     overflow: hidden;
@@ -143,14 +143,11 @@ z-index: 0;}
 .container-main span{
     margin: 0 5px;
 }
-.btn-main{
-    display: inline-block;
-    margin-left: 10px;
-}
 .show-main{
     display: inline-block;
     margin-left: 400px;
-    
+    position:absolute;
+    right: 0;
 }
 .fa-star-o{
     margin: 0 4px;
@@ -159,95 +156,75 @@ z-index: 0;}
     margin: 0 4px;
 }
 .container-main a {
-    /* position: absolute; */
-    /* right: 0; */
-    
     display: inline-block;
     margin-right:20px; 
     color: #D6DADC;
 }
-
+.btn-main{
+    display: inline-block;
+    margin-left: 10px;
+}
 /*Estilo para la seccion del contenido */
 #container{
     
     height: 100%;
 }
-.form-list{
-    display: none;
-}
-/* .list-wrapper{
-    background-color: #E2E4E6;
-    display: inline-block;
-    padding: 7px ;
-    position: relative;
-    border: 1px solid #026AA7;
-    color: #333;
-    border-radius: 5px;
-    margin-top: 30px;
-}  */
-
-.list-container{
-    background: rgba(0,0,0,.12);
-    cursor: pointer;
-    color: #fff;
-    height: auto;
-    min-height: 30px;
-    padding: 4px;
-    border-radius: 3px;
-    width: 270px;
-    margin: 0 5px;
-    box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
-    white-space: nowrap;
-}
-.list-container:last-child {
-    margin-right: 10px;
+#list{
+    padding: 7px;
 }
 form {
     display: block;
     margin-top: 0em;
    
 }
-.list-wrapper.mod-add {
+.textadd-list{
+    background-color: #026AA7;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+}
+/* color a los formularios reutilizable */
+.form-list{
     height: auto;
     min-height: 30px;
     padding: 4px;
     border-radius: 3px;
-    background-color: #E2E4E6;}
-    
-    
- .placeholder{
-    display: block;
-    font-size: 14px;
-    padding: 7px;
-    color: rgba(255,255,255,.7);
+    background-color: #E2E4E6;
+    width: 270px;
+    margin: 0 5px;
 }
 .list-name-input{
-        
-        border-color: transparent;
-        box-shadow: none;
-        cursor: pointer;
-        margin: 0;    
-}
-.list-add-controls {
-    height: 0;
-    margin: 0;
+    box-sizing: border-box;
     
-}
-input.mod-list-add-button {
-    float: left;
-    min-height: 30px;
-    height: 30px;
-    margin-top: 0;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
+    border-color: #aaa;
+    margin: 0;
+    width: 100%;
+    background-color: #E2E4E6;
+    border: 1px solid rgb(104, 105, 105);
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 9pt;
+    padding: 7px;
 
-/**/
-.hidden{
-    display:none;
 }
-.show{
+.list-add-button{
+    background: #026AA7;;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 8px 4px 0 0;
+    padding: 5px 1pc;
+    border-radius: 3px;
+    cursor: pointer;
+    border:none;
+}
+.list-add-close{
+    color: #999;
+    text-align: center;
     display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    width: 30px;
+   
 }
