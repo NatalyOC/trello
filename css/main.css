@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: Arial;
     font-weight: 400px;
     line-height: 18px;
-    box-sizing: border-box;
+    
     background-color: #0079BF;
 }
 a{
@@ -236,4 +241,27 @@ form {
 }
 .display-none{
  display: none;
+}
+.title-list{
+    background-color: #CDD2D4;
+    border-radius: 3px 3px 0 0 ;
+     padding: 7px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    font-weight:bold;
+}
+.open-card{
+    background-color: #CDD2D4;
+    color: #4d4d4d;
+    text-decoration: underline;
+    border-radius: 0 0 3px 3px;
+    color: #838c91;
+    display: block;
+    font-size: 14px;
+    flex: 0 0 auto;
+    padding: 8px 10px;
+    position: relative;
+    line-height: 18px;
+    
 }
