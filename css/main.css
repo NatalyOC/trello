@@ -175,6 +175,11 @@ z-index: 0;}
 form {
     display: block;
     margin-top: 0em;
+    background-color: #E2E4E6;
+    height: auto;
+    min-height: 30px;
+    padding: 4px;
+    border-radius: 3px;
    
 }
 .textadd-list{
@@ -183,14 +188,15 @@ form {
     padding: 7px;
     font-size: 14px;
     color: rgba(255,255,255,.7);
+    cursor: pointer;
 }
 /* color a los formularios reutilizable */
-.form-list{
+.container-form-list{
     height: auto;
     min-height: 30px;
     padding: 4px;
     border-radius: 3px;
-    background-color: #E2E4E6;
+    
     width: 270px;
     margin: 0 5px;
 }
@@ -209,7 +215,7 @@ form {
 
 }
 .list-add-button{
-    background: #026AA7;;
+    background: #5AAC44;;;
     color: #fff;
     font-weight: 700;
     line-height: 22px;
@@ -227,4 +233,7 @@ form {
     line-height: 30px;
     width: 30px;
    
+}
+.display-none{
+ display: none;
 }
