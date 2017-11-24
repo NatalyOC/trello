@@ -178,7 +178,7 @@ z-index: 0;}
     padding: 7px;
 }
 form {
-    display: block;
+    
     margin-top: 0em;
     background-color: #E2E4E6;
     height: auto;
@@ -201,7 +201,7 @@ form {
     min-height: 30px;
     padding: 4px;
     border-radius: 3px;
-    
+    float: left;
     width: 270px;
     margin: 0 5px;
 }
@@ -245,23 +245,31 @@ form {
 .title-list{
     background-color: #CDD2D4;
     border-radius: 3px 3px 0 0 ;
-     padding: 7px;
+    padding: 7px;
     font-size: 14px;
     color: #333;
     cursor: pointer;
     font-weight:bold;
 }
-.open-card{
-    background-color: #CDD2D4;
+.task 
+{
+    display: block;
+    background-color: #E2E4E6;
     color: #4d4d4d;
     text-decoration: underline;
     border-radius: 0 0 3px 3px;
-    color: #838c91;
-    display: block;
     font-size: 14px;
-    flex: 0 0 auto;
+    flex: 0 0 auto; 
     padding: 8px 10px;
-    position: relative;
-    line-height: 18px;
+    /* position: relative; */
+    line-height: 18px; 
     
+} 
+.task-title{
+    background-color: #CDD2D4;
+    border-radius: 3px 3px 0 0 ;
+    padding: 7px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
 }
