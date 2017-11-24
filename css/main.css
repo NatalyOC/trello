@@ -251,6 +251,7 @@ form {
     cursor: pointer;
     font-weight:bold;
 }
+/* Estilos para las tareas */
 .task 
 {
     display: block;
