@@ -18,7 +18,6 @@ window.addEventListener('load', function() {
       div.classList.add('title-list');
       var titleList = document.createTextNode(nameList.value.toUpperCase());
       div.appendChild(titleList);
-
       form.parentElement.insertBefore(div, form);
     }
     var linkTask = document.createElement('a');
@@ -54,9 +53,7 @@ window.addEventListener('load', function() {
       event.target.parentElement.appendChild(subForm); 
       btnTask.disabled = false;
       textArea.focus();
-      // textArea.addEventListener('keyup')
       
-
       /* Versión 0.0.4 - Versión 0.0.5 */
       btnTask.addEventListener('click', function(event) {
         event.preventDefault();
